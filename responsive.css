@@ -1,0 +1,474 @@
+@media (max-width: 1380px){
+    #transition {
+        font-size: 2.5rem ; 
+    }
+
+    article > img {
+        top: -80%;
+    }
+
+    article:hover img {
+        top: -30%;
+    }
+}
+
+@media (max-width: 1180px){
+
+    article {
+        height: 70%;
+    }
+    article > img {
+        top: -70%;
+    }
+
+    article:hover img {
+        top: -35%
+    }
+    article > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1120px){
+    #buttun_area > * {
+        font-size: 1rem;
+    }
+
+    #discover_text > button {
+        width: 40%;
+    }
+    article:hover img {
+        top: -40%
+    }
+
+    h2 {
+        font-size: 33px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    #text_accueil > button {
+        width: 35%;
+    }
+
+    #buttun_area > div {
+        flex-wrap: wrap;
+        margin-right: 0;
+        width: 60%;
+        justify-content: space-around;
+    }
+
+    #buttun_area > div > * {
+        width: 45%;
+        margin-right:0 ;
+        margin: 9px;
+    }
+}
+
+
+
+@media (max-width: 960px){
+    #buttun_area > * {
+        margin-right: 2.5vw;
+    }
+
+    #logo_header > img {
+        height: auto;
+        width: 70%;
+    }
+
+    #transition {
+        font-size: 2rem;
+    }
+
+    #article {
+        flex-wrap: wrap;
+    }
+
+    article {
+        height: 50%;
+        width: 40%;
+    }
+
+    #conseil {
+        margin-top: 11rem;
+    }
+
+    article > img {
+        top: -90%;
+        width: 38vw;
+    }
+
+    #solution {
+        height : 130vh
+    }
+
+    #solution_text {
+        height: 20%;
+    }
+
+    header {
+        max-height: 135px;
+    }
+
+    #logo_header {
+        width: 150px;
+        padding-left: 50px;
+    }
+
+    article > p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #accueil {
+        flex-wrap: wrap;
+    }
+
+    #text_accueil {
+        align-items: center;
+    }
+
+    #text_accueil > h1 {
+        font-size: 46px
+    }
+
+    #img_accueil {
+        width: 100%;
+        height: 50%;
+    }
+
+    #img_accueil > img {
+        height: 80%;
+        width: auto;
+        right: 0;
+    }
+
+    #devis > h1 {
+        font-size: 32px;
+        padding-left :0;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 885px){
+    #buttun_area > div > * {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 860px) {
+
+    article > img {
+        top: -80%;
+    }
+
+    .footer_info > p {
+        font-size: 14px;
+    }
+
+    #transition {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 815px) {
+    footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    footer > #left {
+        height: 40%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    footer > #left > img {
+        width: auto;
+        height: 50%;
+    }
+
+    #left_footer_text {
+        width: auto;
+    }
+
+    footer > #right {
+        height: 40%;
+        width: 100%;
+    }
+
+    footer > #left {
+        height: 20ù;
+        width: 100%;
+    }
+
+    footer > #bottom >p {
+        font-size: 12px;
+    }
+
+    article > p {
+        font-size: 18px;
+        line-height : 20px
+    }
+
+    #buttun_area > * {
+        margin-right: 16px;
+        font-size: 14px;
+    }
+
+    #buttun_area > button {
+        font-size: 2vh;
+    }
+
+    input {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    #buttun_area > div > * {
+        font-size: 14px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 740px) {
+    #buttun_area > * {
+        font-size: 11px;
+    }
+
+    #discover_text > button {
+        width: 60%;
+    }
+
+    article:hover img {
+        top : -32%
+    }
+
+    #buttun_area > div {
+        flex: 1;
+    }
+
+    #discover_text > h1 {
+        font-size : 34px
+    }
+}
+
+@media (max-width: 665px) {
+    #buttun_area > div > * {
+        margin: 3px;
+        width: 47%;
+        font-size : 12px
+    }
+
+    #solution_text > h1 {
+        font-size: 26px;
+    }
+
+    #solution_text > p {
+        line-height : 20px;
+        font-size : 14px
+    }
+
+    #text_accueil > h1 {
+        font-size: 36px;
+    }
+
+    article > p {
+        font-size: 16px;
+    }
+
+    #discover_text > p {
+        font-size : 14px
+    }
+
+    #discover_text > button {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 610px) {
+    article > p {
+        font-size: 16px;
+    }
+
+    #discover {
+        flex-wrap:wrap ;
+    }
+
+    #discover_left {
+        width: 100%;
+        height: 40%;
+        order: 1;
+    }
+
+    #discover_right {
+        justify-content: center;
+        width: 100%;
+        height: 60%;
+    }
+
+    #discover_text > button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 585px) {
+    #buttun_area > div > * {
+        color: black;
+        font-size: 0;
+    }
+
+    article:hover img {
+        top: -28%;
+    }
+
+    #conseil {
+        margin-top: 8rem;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 570px) {
+    #transition {
+        font-size: 1.2rem;
+    }
+
+    footer > #bottom >p {
+        font-size: 9px;
+    }
+
+    footer > #bottom > img {
+        height: 30%;
+    }
+
+    #solution_text > h1 {
+        margin-bottom: 0px;
+        width: 80%;
+    }
+
+    #img_accueil > img {
+        height: 50%;
+    }
+
+    article {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 540px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    article > p {
+        line-height: 18px;
+    }
+
+    #transition {
+        height: 70px;
+    }
+}
+
+@media (max-width: 500px) {
+    #devis > h1 {
+        font-size: 28px;
+    }
+
+    article:hover img {
+        top: -22%;
+    }
+
+    footer > #left > img {
+        height: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    #text_accueil > h1 {
+        font-size: 32px;
+        padding-left: 0;
+    }
+
+    #text_accueil > p {
+        padding-left: 0
+    }
+
+    #text_accueil > button {
+        margin-left: 0;
+    }
+
+    #transition {
+        font-size: 1rem;
+    }
+
+    #discover_text > h1 {
+        padding-left: 20px;
+    }
+
+    #discover_text > button {
+        margin-left: 20px;
+    }
+
+    #discover_text > p {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    article > p {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #devis > h1 {
+        font-size: 22px;
+    }
+
+    #solution_text > p {
+        width: 80%;
+        padding-left: 0;
+    }
+
+    #solution_text > h1 {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #discover_text > h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 385px) {
+    #text_accueil > h1 {
+        font-size: 28px;
+    }
+
+    #text_accueil > p {
+        font-size:14px
+    }
+
+    #discover_text > p {
+        line-height: 24px;
+    }
+
+
+}

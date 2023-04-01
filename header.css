@@ -1,0 +1,75 @@
+@keyframes spawn_header {
+    from {
+        transform: translateY(-15vh);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+header {
+    background-color: black;
+    border: 0px;
+    border-bottom: 3px #F16F51 solid;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+
+header > * {
+    animation-name: spawn_header;
+    animation-duration: 1s;
+    
+}
+
+#logo_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    width: 20vw;
+    height: 100%;
+    padding-left: 6vh;
+}
+
+#logo_header > img {
+    height: 70%;
+}
+
+#buttun_area {
+    flex: 1;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#buttun_area > * {
+
+    display: flex;
+    margin-right: 3.5vw;
+    color: white;
+    font-family: costoma_regualar;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#buttun_area > div {
+    display: flex;
+}
+
+#buttun_area > div > *{
+    font-size: 1.3rem;
+    margin-right: 16px;
+}
+
+#buttun_area > div >span:hover {
+    color: #F16F51 ;
+    transition:all 0.3s ease;
+}
+

@@ -1,0 +1,29 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blackbutton {
+    border: 0.28vh solid white;
+    background-color: black;
+    border-radius: 60px;
+    padding: 1.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-size: 2vh;
+    font-family: costoma_regualar;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.blackbutton:hover {
+    border: 0.28vh solid #F16F51;
+    background-color: #F16F51;
+}
+
+img {
+    transition: all 1s ease;
+}

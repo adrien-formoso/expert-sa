@@ -1,0 +1,24 @@
+@font-face {
+    font-family: costoma_regualar;
+    src: url("./asset/cosmata-font/cosmata-regular.otf");
+}
+
+@font-face {
+    font-family: IvyMode_Bold;
+    src: url("./asset/IvyMode-font/IvyMode-Bold.ttf");
+}
+
+@font-face {
+    font-family: Grostesk_Regular;
+    src: url("./asset/grotesk-font/GroteskRegular.otf");
+}
+
+@font-face {
+    font-family: Grostesk_Light;
+    src: url("./asset/grotesk-font/GroteskLight.otf");
+}
+
+@font-face {
+    font-family: Begika_regular;
+    src: url("./asset/begika-font/Begika_Outline_Regular.ttf");
+}

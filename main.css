@@ -1,0 +1,254 @@
+#first {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#accueil {
+    margin-top: 16.5vh;
+    height: 83.7vh;
+    width: 100%;
+    display: flex;
+}
+
+#text_accueil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.orange {
+    color: #F16F51;
+}
+
+h1 {
+    font-family: IvyMode_Bold, sans-serif;
+    font-size: 3.3vw;
+    padding-left: 6vh;
+    color: white;
+}
+
+p {
+    width: 80%;
+    padding-left: 6vh;
+    line-height: 30px;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: Grostesk_Regular;
+    color: white;
+}
+
+#text_accueil > button {
+    margin-top: 4.5vh;
+    margin-left: 6vh;
+    width: 28%;
+    
+}
+
+#img_accueil {
+    height: 100%;
+    width: 55%;
+    filter: grayscale(100%);
+    transition: all 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img_accueil > img {
+    width: 100%;
+    max-width: 700px;
+    height:auto;
+    position: relative;
+    right: 8vh;
+}
+
+#img_accueil:hover {
+    filter: grayscale(0%);
+}
+
+#transition {
+    height: 16vh;
+    width: 100%;
+    border-top: 0.3vh solid white;
+    border-bottom: 0.3vh solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-family: Begika_regular;
+}
+
+#discover {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-bottom: #F16F51 3px solid;
+}
+
+#discover_left {
+    width: 45%;
+    height: 100%;
+    background-image: url(./asset/discover_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+
+}
+
+#discover_left:hover {
+    filter: grayscale(0%);
+    transition: all 0.3s ease;
+}
+
+#discover_right {
+    display: flex;
+    height: 100%;
+    margin-right: 1vw;
+    flex: 1;
+    align-items: center;
+}
+
+#discover_left>img:hover {
+    filter: grayscale(0%);
+}
+
+#discover_text > button {
+    margin-top: 4.5vh;
+    margin-left: 6vh;
+    width: 28%;
+    
+}
+
+#solution {
+    height: 90vh;
+    width: 100%;
+    background-color: #F8CDC5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#solution_text {
+    display: flex;
+    justify-content: center;
+    width:  100%;
+    height: 40%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#solution_text > h1 {
+    width: 45%;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#solution_text > p {
+    width: 55%;
+    color: black;
+    text-align: center;
+    line-height: 26px;
+}
+
+#article {
+    position: relative;
+    top: 3%;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article {
+    width: 27%;
+    height: 70%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: Grostesk_Light;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 8%;
+}
+
+article > img {
+    position: relative;
+    top: -100%;
+    left: 10%;
+    width: 26vw;
+    transition: all 0.3s ease;
+}
+
+article:hover img {
+    top: -45%;
+}
+
+
+article:hover h2 {
+    color: #F16F51;
+}
+
+article:hover p {
+    color: black;
+    transition: all 0.5s ease;
+    
+}
+article > p {
+    height: 100%;
+    padding: 0;
+    margin-left: 10%;
+    font-size: 18px;
+    color: white;
+    line-height: 26px;
+}
+
+#devis_back {
+    background-color: #F8CDC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#devis {
+    background-image: url("./asset/devis.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 42vh;
+    width: 80%;
+    margin-bottom: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #BD5740;
+}
+
+#devis > h1 {
+    color: black;
+    text-align: center;
+}
+
+#devis_button {
+    border: black 0.28vh solid;
+    color: black;
+    background-color: #F1AA9D ;
+}
+
+#devis_button:hover {
+    background-color: black;
+    color: white;
+}
